@@ -1,6 +1,6 @@
 ## V&M Artesanato — Feito com amor!
 
-![Logo V&M Artesanato](/assets/img/logo-sem-fundo.png)
+<img src="/assets/img/logo-sem-fundo.png" width="300">
 
 Site estático e responsivo para apresentação e venda de produtos artesanais.
 
