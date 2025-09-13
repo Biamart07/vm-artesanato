@@ -4,9 +4,14 @@
 
 Site estático e responsivo para apresentação e venda de produtos artesanais.
 
+## 📸 Screenshot
+
+![Screenshot do Site V&M Artesanato](screenshot.png)
+
 ---
 
 ### 📑 Índice
+- [Screenshot](#-screenshot)
 - [Descrição](#-descrição)
 - [Linguagens e Tecnologias](#-linguagens-e-tecnologias)
 - [Funcionalidades](#-funcionalidades)
