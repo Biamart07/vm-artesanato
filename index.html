@@ -58,46 +58,15 @@
             </span>
           </a>
 
-          <div class="hidden items-center md:flex md:gap-8 lg:gap-12 mr-20">
-            <ul
-              class="flex flex-row space-x-6 font-texto text-cinzaescuro font-medium dark:text-white">
-              <li>
-                <a
-                  class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out"
-                  href="#inicio">
-                  Início
-                </a>
-              </li>
-              <li>
-                <a
-                  class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out"
-                  href="#categorias">
-                  Categorias
-                </a>
-              </li>
-              <li>
-                <a
-                  class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out"
-                  href="#produtos">
-                  Produtos
-                </a>
-              </li>
-              <li>
-                <a
-                  class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out"
-                  href="#sobre">
-                  Sobre Nós
-                </a>
-              </li>
-              <li>
-                <a
-                  class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out"
-                  href="#contato">
-                  Contato
-                </a>
-              </li>
-            </ul>
-          </div>
+                <div class="hidden items-center md:flex md:gap-8 lg:gap-12 mr-20">
+                  <ul class="flex flex-row space-x-6 font-texto text-cinzaescuro font-medium dark:text-white">
+                      <li><a class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out" href="#inicio">Início</a></li>
+                      <li><a class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out" href="#categorias">Categorias</a></li>
+                      <li><a class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out" href="#produtos">Produtos</a></li>
+                      <li><a class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out" href="#sobre">Sobre Nós</a></li>
+                      <li><a class="hover:text-marromhover dark:hover:text-verde transition-colors duration-300 ease-in-out" href="#contato">Contato</a></li>
+                  </ul>
+                </div>
 
           <!-- Botão abrir menu (mobile) -->
           <button
@@ -121,60 +90,33 @@
             </svg>
           </button>
 
-          <!-- Mobile Menu -->
-          <div
-            id="mobileMenu"
-            aria-hidden="true"
-            class="fixed inset-0 z-50 flex flex-col items-center justify-center gap-6 text-lg font-medium bg-marrom dark:bg-marromescuro md:hidden transition duration-300 translate-x-full">
-            <a href="#inicio">Inicio</a>
-            <a href="#categorias">Categorias</a>
-            <a href="#produtos">Produtos</a>
-            <a href="#sobre">Sobre nós</a>
-            <a href="#contato">Contato</a>
-            <button
-              id="closeMenu"
-              aria-label="Fechar menu"
-              class="aspect-square size-10 p-1 items-center justify-center bg-marromhover hover:bg-marrom transition-colors duration-300 text-white rounded-md flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-x-icon lucide-x">
-                <path d="M18 6 6 18" />
-                <path d="m6 6 12 12" />
-              </svg>
-            </button>
-          </div>
-
-          <!-- Botão para mudar tema claro/escuro -->
-          <div class="flex items-center">
-            <button
-              type="button"
-              class="hs-dark-mode-active:hidden block hs-dark-mode font-medium text-cinzaescuro rounded-full hover:bg-begefundo focus:outline-hidden focus:bg-begefundo dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 transition-colors duration-300 ease-in-out"
-              data-hs-theme-click-value="dark">
-              <span
-                class="group inline-flex shrink-0 justify-center items-center size-9">
-                <svg
-                  class="shrink-0 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
-                </svg>
-              </span>
-            </button>
+                <!-- Mobile Menu -->
+                <div id="mobileMenu" aria-hidden="true" class="fixed inset-0 z-50 flex flex-col items-center justify-center gap-6 text-lg font-medium bg-marrom dark:bg-marromescuro md:hidden transition duration-300 translate-x-full">
+                  <a href="#inicio">Inicio</a>
+                  <a href="#categorias">Categorias</a>
+                  <a href="#produtos">Produtos</a>
+                  <a href="#sobre">Sobre nós</a>
+                  <a href="#contato">Contato</a>
+                  <button id="closeMenu" aria-label="Fechar menu"
+                      class="aspect-square size-10 p-1 items-center justify-center bg-marromhover hover:bg-marrom transition-colors duration-300 text-white rounded-md flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="lucide lucide-x-icon lucide-x">
+                          <path d="M18 6 6 18" />
+                          <path d="m6 6 12 12" />
+                      </svg>
+                  </button>
+                </div>
+                
+                <!-- Botão para mudar tema claro/escuro -->
+                <div class="flex items-center">
+                    <button type="button" class="hs-dark-mode-active:hidden block hs-dark-mode font-medium text-cinzaescuro rounded-full hover:bg-begefundo focus:outline-hidden focus:bg-begefundo dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 transition-colors duration-300 ease-in-out" data-hs-theme-click-value="dark">
+                        <span class="group inline-flex shrink-0 justify-center items-center size-9">
+                          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                          </svg>
+                        </span>
+                      </button>
 
             <button
               type="button"
@@ -432,28 +374,21 @@
           </div>
 
           <div class="flex flex-col rounded-xl shadow-md m-5 lg:w-72">
-            <img
-              class="h-48 object-cover rounded-t-[10px] bg-fixed transition duration-300 ease-in-out hover:opacity-80"
-              src="assets/produtos/almofadaflorida.jpeg"
-              alt="image" />
-            <div class="bg-begefundo rounded-b-xl p-4 text-sm">
-              <p class="font-texto text-cinzaescuro">R$ 20.00</p>
-              <p
-                class="font-texto text-cinzaescuro text-base font-medium my-1.5">
-                Capa Almofada Florida
-              </p>
-              <p class="font-texto text-cinzaescuro">Medindo 40cm x 40cm</p>
-              <div
-                class="flex items-center justify-center gap-2 mt-3 mx-3 bg-white/20 rounded-md active:scale-100 hover:scale-105 transition-all duration-300">
-                <button
-                  class="font-semibold text-white text-sm bg-gradient-to-t from-verde to-marrom hover:scale-105 dark:to-marromescuro transition duration-300 h-full w-full rounded py-2">
-                  Comprar
-                </button>
+              <img class='h-48 object-cover rounded-t-[10px] bg-fixed transition duration-300 ease-in-out hover:opacity-80'
+                  src="assets/produtos/almofadaflorida.jpeg"
+                  alt="image">
+              <div class="bg-begefundo rounded-b-xl p-4 text-sm">
+                  <p class="font-texto text-cinzaescuro">R$ 20.00</p>
+                  <p class="font-texto text-cinzaescuro text-base font-medium my-1.5">Capa Almofada Florida</p>
+                  <p class="font-texto text-cinzaescuro">Medindo 40cm x 40cm</p>
+                  <div class="flex items-center justify-center gap-2 mt-3 mx-3 bg-white/20 rounded-md active:scale-100 hover:scale-105 transition-all duration-300">
+                      <button class="font-semibold text-white text-sm bg-gradient-to-t from-verde to-marrom hover:scale-105 dark:to-marromescuro transition duration-300 h-full w-full rounded py-2">
+                        Comprar
+                      </button>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       <!--Sobre nós -->
       <section
